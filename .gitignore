@@ -4,3 +4,5 @@
 .pnp.js
 #vscode
 .vscode/*
+#ds_store
+.DS_Store

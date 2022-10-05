@@ -1,5 +1,6 @@
 // const density = 'Ñ@#W$9876543210?!abc;:+=-,._ '; //add more spaces build the image in a better definition,
-const density = '        .:-i|=+%O#@';
+// const density = '.:-i|=+%O#@';
+const density = '@#0%O+=|i-:.,';
 // let lula;
 let video;
 let asciiDiv;
@@ -10,7 +11,7 @@ let asciiDiv;
 function setup() {
   noCanvas();
   video = createCapture(VIDEO);
-  video.size(48, 48);
+  video.size(24, 24);
   asciiDiv = createDiv();
 }
 
